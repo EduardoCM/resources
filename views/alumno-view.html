@@ -1,0 +1,28 @@
+<div class="container pad-top">
+  <table class="table alumnotable">
+      <tr>
+          <td><h3>Details for {{alumno.nombre}}</h3></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Nombre</td>
+          <td>{{alumno.nombre}}</td>
+      </tr>
+      <tr>
+          <td>Apellido Paterno</td>
+          <td>{{alumno.apellidoPaterno}}</td>
+      </tr>
+      <tr>
+          <td>Apellido Materno</td>
+          <td>{{alumno.apellidoMaterno}}</td>
+      </tr>
+      <tr>
+          <td>Edad</td>
+          <td>{{alumno.edad}}</td>
+      </tr>
+      
+  </table>
+  <div>
+      <a class="btn btn-primary" ui-sref="editAlumno({id:alumno.id})">Edit</a>
+  </div>
+</div>
